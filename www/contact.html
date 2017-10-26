@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Илья Муромец: Лента сообщений | Концепция message Hub для email и чатов из соцсетей</title>
+
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <header>
+    <div class="container"><h1>прототип единой ленты текстовых сообщений</h1></div>
+  </header>
+<div class="container">     
+  <div class="row">
+    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+
+        <div class="btn-toolbar" role="toolbar">
+          <div class="btn-group">
+            <a href="index.html" class="btn btn-default"><i class="fa fa-comments-o" aria-hidden="true"></i> </a>
+            <a href="contact.html" class="btn btn-danger"><i class="fa fa-address-book" aria-hidden="true"></i> </a>
+            <a href="#" class="btn btn-default"><i class="fa fa-wrench" aria-hidden="true"></i> </a>
+          </div>
+        </div>
+        <p><br></p>
+
+        <ul class="list-group">
+          <li class="list-group-item list-group-item-success">Илья Муромец</li>
+          <li class="list-group-item">Алеша Попович</li>
+          <li class="list-group-item">Маруся</li>
+          <li class="list-group-item"><span class="badge">14</span> Василий Буслаев</li>
+        </ul>
+    </div>
+    <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+
+        <div class="btn-toolbar pull-right" role="toolbar">
+          <div class="btn-group">
+            <a href="#" class="btn btn-danger">Все</a>
+            <a href="#" class="btn btn-default">email</a>
+            <a href="#" class="btn btn-default">Mail.RU Агент</a>
+            <a href="#" class="btn btn-default">vk.com</a>
+            <a href="#" class="btn btn-default">ok.ru</a>
+            <a href="#" class="btn btn-default">icq</a>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <p><br></p>
+
+        <div class="list-group">
+
+          <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">
+              Муромцев Илья Иванович 
+              <span class="pull-right">
+                <small>15:45</small> <span class="label label-default">email</span>  
+              </span>
+            </h4>
+            <p class="list-group-item-text">Заказа-наряд №654321</p>
+          </a>
+
+          <a href="#" class="list-group-item list-group-item-success">
+            <h4 class="list-group-item-heading">Илья (сервис)
+              <span class="pull-right">
+                <small>12:30</small> <span class="label label-success">icq</span>  
+              </span>
+            </h4>
+            <p class="list-group-item-text">Буду к сроку, без базара!</p>
+          </a>
+
+          <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">
+              Муромцев Илья Иванович 
+              <span class="pull-right">
+                <small>15:45</small> <span class="label label-default">email</span>  
+              </span>
+            </h4>
+            <p class="list-group-item-text">RE: Согласование заказа</p>
+          </a>
+
+          <a href="#" class="list-group-item list-group-item-info">
+            <h4 class="list-group-item-heading">Илья Иванович
+              <span class="pull-right">
+                <small>28.11.2016</small> <span class="label label-danger"><i class="fa fa-vk" aria-hidden="true"></i> </span>  
+              </span>
+            </h4>
+            <p class="list-group-item-text">Риск – дело благородное, но ничто лучше не подчеркнет моего благородства, чем дорогая сбруя и золотые подковы.</p>
+          </a>
+
+          <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">
+              Муромцев Илья Иванович 
+              <span class="pull-right">
+                <small>15:45</small> <span class="label label-default">email</span>  
+              </span>
+            </h4>
+            <p class="list-group-item-text">Смета на работы</p>
+          </a>
+
+
+          <a href="#" class="list-group-item list-group-item-warning">
+            <h4 class="list-group-item-heading">Дед Илья 
+              <span class="pull-right">
+                <small>Вчера 19:21</small> <span class="label label-success"><i class="fa fa-odnoklassniki" aria-hidden="true"></i> </span>  
+              </span>
+            </h4>
+            <p class="list-group-item-text">Привет, ты все еще до 20 часов трудишся?</p>
+          </a>
+
+          <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">
+              ilya@mail.ru
+              <span class="pull-right">
+                <small>15:45</small> <span class="label label-default">email</span>  
+              </span>
+            </h4>
+            <p class="list-group-item-text">Прикольные картинки :)</p>
+          </a>
+
+           <a href="#" class="list-group-item list-group-item-warning">
+            <h4 class="list-group-item-heading">Ильюша
+              <span class="pull-right">
+                <small>Вчера 07:40</small> <span class="label label-danger">Mail.RU Агент</span>  
+              </span>
+            </h4>
+            <p class="list-group-item-text">Как же тяжко рано вставать :(</p>
+          </a>
+
+          <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">
+              Муромцев Илья Иванович 
+              <span class="pull-right">
+                <small>15:45</small> <span class="label label-default">email</span>  
+              </span>
+            </h4>
+            <p class="list-group-item-text">Согласование заказа</p>
+          </a>
+
+          
+        </div>
+    </div>
+  </div>
+</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </body>
+</html>
